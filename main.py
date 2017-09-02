@@ -141,7 +141,7 @@ tests.test_train_nn(train_nn)
 
 def run():
     
-    EPOCHS = 5
+    EPOCHS = 30
     BATCH_SIZE = 10
     
     num_classes = 2
