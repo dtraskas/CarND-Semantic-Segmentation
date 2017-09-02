@@ -20,11 +20,11 @@ The hyperparameters used for the training by the network are:
 
 After 30 epochs loss per batch is on average around 0.065. Below you can see some sample images from the last run.
 
-![sample1](./data/runs/1504363222.6781206/um_000006.png)
-![sample2](./data/runs/1504363222.6781206/um_000013.png)
-![sample3](./data/runs/1504363222.6781206/um_000016.png)
-![sample4](./data/runs/1504363222.6781206/um_000020.png)
-![sample5](./data/runs/1504363222.6781206/um_000032.png)
+![sample1](./runs/1504363222.6781206/um_000006.png)
+![sample2](./runs/1504363222.6781206/um_000013.png)
+![sample3](./runs/1504363222.6781206/um_000016.png)
+![sample4](./runs/1504363222.6781206/um_000020.png)
+![sample5](./runs/1504363222.6781206/um_000032.png)
 
 ### Setup
 ##### Frameworks and Packages
