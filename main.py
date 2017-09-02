@@ -119,8 +119,8 @@ def train_nn(sess, epochs, batch_size, get_batches_fn, train_op, cross_entropy_l
     :param keep_prob: TF Placeholder for dropout keep probability
     :param learning_rate: TF Placeholder for learning rate
     """
-    KEEP_PROBABILITY = 0.65
-    LEARNING_RATE = 0.0003
+    KEEP_PROBABILITY = 0.75
+    LEARNING_RATE = 0.0001
 
     print("Training model...")    
     sess.run(tf.global_variables_initializer())
@@ -141,8 +141,8 @@ tests.test_train_nn(train_nn)
 
 def run():
     
-    EPOCHS = 20
-    BATCH_SIZE = 8
+    EPOCHS = 5
+    BATCH_SIZE = 10
     
     num_classes = 2
     image_shape = (160, 576)
