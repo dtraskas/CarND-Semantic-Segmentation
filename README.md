@@ -1,7 +1,7 @@
 # Semantic Segmentation Project
 
-## Introduction
-The goal of this project is to develop a convolutional neural network based on the VGG-16 image classifier for performing semantic segmentation and in order to determine the area in an image that is a road. The KITTI dataset is used for training our model and providing all the test images too.
+## Project Objectives
+The objectives of this project are to develop a convolutional neural network based on the VGG-16 image classifier for performing semantic segmentation and in order to determine the area in an image that is a road, as well as processing a video stream of data in real time. The KITTI dataset is used for training our model and providing all the test images too.
 
 ## Network Architecture
 The network uses a pretrained VGG-16 model that gets converted to a fully convolutional network that has two classes. The final fully connected layer is converted to a 1x1 convolution. Additionally to increase performance the network is using skip connections with 1x1 convolutions on VGG layers that are added element wise and upsampled. A kernel initializer and regularizer are also used in each convolution and transpose convolution layers and have proved to increase performance and reduce loss significantly. 
